@@ -1,2 +1,5 @@
 *.swp
 *.o
+app/shell/curt_image.bin
+app/shell/curt_image.elf
+app/shell/flash-image
