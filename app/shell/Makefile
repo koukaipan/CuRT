@@ -7,7 +7,7 @@ LD = $(CROSS_COMPILE)ld
 OBJCOPY = $(CROSS_COMPILE)objcopy
 
 MACH_CFLAGS = -march=armv5te -mtune=xscale -Wa,-mcpu=xscale \
-	      -mabi=aapcs-linux -mno-thumb-interwork
+	      -mabi=aapcs-linux -mno-thumb-interwork -fno-stack-protector
 
 CFLAGS = \
 	-I../../includes/arch/arm/mach-pxa \
