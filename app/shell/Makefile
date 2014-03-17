@@ -10,8 +10,8 @@ MACH_CFLAGS = -march=armv5te -mtune=xscale -Wa,-mcpu=xscale \
 	      -mabi=aapcs-linux -mno-thumb-interwork -fno-stack-protector
 
 CFLAGS = \
-	-I../../includes/arch/arm/mach-pxa \
-	-I../../includes \
+	-I../../include/arch/arm/mach-pxa \
+	-I../../include \
 	-Wall -Werror \
 	-fno-builtin \
 	-O0 -g $(MACH_CFLAGS)
