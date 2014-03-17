@@ -1,6 +1,6 @@
 *.swp
 *.o
 *.map
-app/shell/curt_image.bin
-app/shell/curt_image.elf
-app/shell/flash-image
+arch/arm/mach-pxa/curt_image.bin
+arch/arm/mach-pxa/curt_image.elf
+arch/arm/mach-pxa/flash-image
