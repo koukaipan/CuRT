@@ -12,7 +12,7 @@ MACH_CFLAGS = -march=armv5te -mtune=xscale -Wa,-mcpu=xscale \
 CFLAGS = \
 	-I../../includes/arch/arm/mach-pxa \
 	-I../../includes \
-	-Wall -Werror \
+	-Wall -Werror -Wno-error=unused-but-set-variable \
 	-fno-builtin \
 	-O0 -g $(MACH_CFLAGS)
 
