@@ -1,7 +1,7 @@
-#ARCH = x86
-#ARCH_SRC_DIR = arch/x86
-ARCH = pxa255
-ARCH_SRC_DIR = arch/arm/mach-pxa
+ARCH = x86
+ARCH_SRC_DIR = arch/x86
+#ARCH = pxa255
+#ARCH_SRC_DIR = arch/arm/mach-pxa
 
 #######################################################################
 # path setting
